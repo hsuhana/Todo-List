@@ -1,0 +1,118 @@
+:root{
+    background: url(../image/background.jpg);
+    background-size: cover;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    margin: 10vw 15vw;
+    padding: 3em;
+    border-radius: 15px;
+}
+
+.title{
+    font-family: "Sniglet";
+    font-size: 1em;
+    color: #77635a;
+    margin-bottom: 1em;
+}
+
+.subtitle h1{
+    font-family: "Sniglet";
+    margin: 0;
+    font-size: 1.5em;
+    color: #b19584;
+}
+
+.subtitle{
+    margin-bottom: 1em;
+}
+
+input{
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: "Sniglet";
+    color: #df9898;
+    font-size: 13px;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+}
+
+#add{
+    padding: 13px;
+    box-sizing: border-box;
+    font-family: "Sniglet";
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #ccc;
+    border-left: 0;
+    background-color: #b49393;
+    color: white;
+    cursor: pointer;
+}
+
+ul{
+    display: block;
+    list-style-type: none;
+    text-align: center;
+}
+
+.container{
+    margin-top: 2em;
+
+}
+
+li{
+    background-color: #a8989899;
+    width: 80%;
+    display: inline-block;
+    padding: 1em;
+    border-radius: 5px;
+    font-family: "Sniglet";
+    margin-top: 1em;
+}
+
+.todoDate{
+    color: #ffffff94;
+}
+
+.todoContent{
+    color: white;
+}
+
+.removeButton, .completeButton{
+    padding: 3px 15px;
+    border: 1px solid #ccc;
+    margin: 1em 0.5em 0em 0.5em;
+    font-size: 10px;
+    font-family: "Sniglet";
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+}
+
+.removeButton{
+    background-color: #df9898;
+}
+
+.completeButton{
+    background-color: #7b7470;
+}
+
+.liEmpty{
+    color: white;
+}

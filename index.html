@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Todo List</title>
+
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Sniglet&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="title">
+            <h1>LET'S MAKE A TO-DO LIST FOR TODAY</h1>
+        </div>
+        <div class="subtitle">
+            <h1>Today Is </h1>
+            <h1 class="date"></h1>
+        </div>
+        <div class="input">
+            <input type="text" placeholder="Enter Your Mission" id="item">
+            <button id="add">ADD</button>
+        </div>
+        <div class="container">
+            <ul class="todo" id="todo">
+                <!-- <li>
+                    <div class="todoDate"></div>
+                    This is an item
+                    <div class="button">
+                        <button class="removeButton">REMOVE</button>
+                        <button class="completeButton">COMPLETE</button>
+                    </div>
+                </li> -->
+            </ul>
+            <ul class="todo" id="completed"></ul>
+        </div>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
